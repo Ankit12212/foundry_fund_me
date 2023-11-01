@@ -1,0 +1,3 @@
+FundMeTest:testMinimumDollarIsFive() (gas: 5405)
+FundMeTest:testOwnerIsMsgSender() (gas: 5598)
+FundMeTest:testPriceFeedVersionIsAccurate() (gas: 10692)

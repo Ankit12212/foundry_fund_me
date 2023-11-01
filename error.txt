@@ -1,0 +1,16 @@
+1. command : forge init 
+   error : "Cannot run `init` on a non-empty directory."
+
+   cause : not using command in the prorper directory or running command in the base folder rather than actual folder 
+
+2. command : forge test -m <functionName>
+   error : unexpected argument '-m' found
+   cause : -m has been deprecated and was replaced with --match-test / --mt
+
+3. The .env file typically contains key-value pairs, one per line, in the format KEY=VALUE  
+
+4. command : forge test --fork-url $SEPOLIA_RPC_URL
+   error : a value is required for '--fork-url <URL>' but none was supplied
+   solution : run the command "source .env" first while beign on the current directory in the shell and then run the command above 
+
+5.    
